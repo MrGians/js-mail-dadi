@@ -13,6 +13,34 @@
 </head>
 <body>
     
+    <section id="dado-game">
+        <div class="container">
+            <!-- Title -->
+            <h1 class="text-uppercase text-center my-5">Dado Game</h1>
+            <div class="row">
+                <!-- User Dado Result -->
+                <div class="col-4 offset-2">
+                    <h4 class="text-center py-3">Giocatore 1</h4>
+                    <div id="user-result" class="mx-auto my-5">?</div>
+                </div>
+                <!-- CPU Dado Result -->
+                <div class="col-4">
+                    <h4 class="text-center py-3">CPU</h4>
+                    <div id="cpu-result" class="mx-auto my-5">?</div>
+                </div>
+                <!-- Game CTA -->
+                <div class="col-8 offset-2">
+                    <button id="start-game" class="btn btn-light btn-outline-warning btn-lg">Start!</button>
+                </div>
+                <!-- Game Result -->
+                <div class="col-8 offset-2">
+                    <div id="game-result" class="text-white text-center my-3">Premi <em>Start</em> per iniziare a giocare!</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
     <!-- JS Script -->
     <script src="dadi.js"></script>
 </body>
