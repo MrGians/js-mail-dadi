@@ -1,12 +1,18 @@
 /*********** Palette color ***********/
 :root{
-    --primary: #;
-    --secondary: #;
+    --primary: #026E6F;
+    --secondary: #E4DBB1;
 }
 
 
 /*********** Utilities ***********/
-
+.cs-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 /*********** Generics ***********/
+body {background-color: var(--primary);}
 
+[class^="col"] {background-color: var(--secondary);}
