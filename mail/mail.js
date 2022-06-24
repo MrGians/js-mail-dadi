@@ -12,7 +12,8 @@ console.log("js ok")
 
 const authorizedEmails = ["gianluca@bool.it", "gennaro@bool.it", "pippo@bool.it"];
 const userEmail = prompt("Inserisci la tua Email per accedere", "gianluca@bool.it");
-let accessAllowed;
+
+let accessAllowed = "Spiacenti";
 
 
 console.table(authorizedEmails);
@@ -20,13 +21,12 @@ console.log("Email utente: " + userEmail);
 
 for (let i = 0; i < authorizedEmails.length; i++) {
   console.log(authorizedEmails[i]);
-  accessAllowed = "Spiacenti";
-
-
+  
+  
   if (authorizedEmails[i] == userEmail) {
     accessAllowed = "Benvenuto";
   }
-
+  
 }
 
 console.log(accessAllowed);
